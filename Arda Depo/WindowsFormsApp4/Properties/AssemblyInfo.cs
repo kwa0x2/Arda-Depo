@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // Bir bütünleştirilmiş koda ilişkin Genel Bilgiler aşağıdaki öznitelikler kümesiyle
 // denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
 // bu öznitelik değerlerini değiştirin.
-[assembly: AssemblyTitle("Arda Depo")]
-[assembly: AssemblyDescription("İsmail Arda Kütük 11-MEK-A 1121")]
+[assembly: AssemblyTitle(".kwa")]
+[assembly: AssemblyDescription("https://kwa0x2.xyz/")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("İsmail Arda Kütük 11-MEK-A 1121")]
-[assembly: AssemblyProduct("Arda Depo")]
+[assembly: AssemblyCompany("https://kwa0x2.xyz/")]
+[assembly: AssemblyProduct("https://kwa0x2.xyz/")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
-[assembly: AssemblyTrademark("İsmail Arda Kütük 11-MEK-A 1121")]
+[assembly: AssemblyTrademark("https://kwa0x2.xyz/")]
 [assembly: AssemblyCulture("")]
 
 // ComVisible özniteliğinin false olarak ayarlanması bu bütünleştirilmiş koddaki türleri

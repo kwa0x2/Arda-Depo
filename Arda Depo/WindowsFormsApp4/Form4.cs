@@ -19,7 +19,7 @@ namespace WindowsFormsApp4
         }
         bool formtasi = false;
         Point baslangic = new Point(0, 0);
-        MySqlConnection conn = new MySqlConnection("SERVER=87.248.157.101;PORT=3306;DATABASE=ismaildepo;UID=depoismailSQL;PASSWORD=depoismailSQL11;");
+        MySqlConnection conn = new MySqlConnection("SERVER=;PORT=3306;DATABASE=;UID=;PASSWORD=;");
         MySqlCommand cmd;
         MySqlDataAdapter adapter;
         DataTable dt;
@@ -204,6 +204,11 @@ namespace WindowsFormsApp4
         private void ıconButton6_Click(object sender, EventArgs e)
         {
             MessageBox.Show("ID: " + dataGridView1.CurrentRow.Cells[0].Value.ToString()+ "\nMarka: " + dataGridView1.CurrentRow.Cells[1].Value.ToString()+ "\nModel: " + dataGridView1.CurrentRow.Cells[2].Value.ToString()+ "\nSeri No: " + dataGridView1.CurrentRow.Cells[3].Value.ToString()+ "\nKayıt Yapan: " + dataGridView1.CurrentRow.Cells[4].Value.ToString()+ "\nÜrün Alış Fiyatı: " + dataGridView1.CurrentRow.Cells[5].Value.ToString() + "\nÜrün Satış Fiyatı: " + dataGridView1.CurrentRow.Cells[6].Value.ToString()+ "\nStok Adeti: " + dataGridView1.CurrentRow.Cells[7].Value.ToString() + "\nKayıt Tarihi: " + dataGridView1.CurrentRow.Cells[8].Value.ToString(),"Arda Depo | "+ dataGridView1.CurrentRow.Cells[1].Value.ToString()+" "+ dataGridView1.CurrentRow.Cells[2].Value.ToString(),MessageBoxButtons.OK);
+
+        }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

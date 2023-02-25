@@ -45,7 +45,6 @@
             this.ıconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -172,12 +171,12 @@
             // panel8
             // 
             this.panel8.Controls.Add(this.panel3);
-            this.panel8.Controls.Add(this.label2);
             this.panel8.Controls.Add(this.label1);
             this.panel8.Location = new System.Drawing.Point(217, 0);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(609, 451);
             this.panel8.TabIndex = 15;
+            this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             this.panel8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseDown);
             this.panel8.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseMove);
             this.panel8.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseUp);
@@ -268,20 +267,6 @@
             this.pictureBox5.TabStop = false;
             this.pictureBox5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox5_MouseDown_1);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.label2.Location = new System.Drawing.Point(113, 222);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(364, 28);
-            this.label2.TabIndex = 21;
-            this.label2.Text = "İSMAİL ARDA KÜTÜK 11-MEK-A 1121";
-            this.label2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseDown);
-            this.label2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseMove);
-            this.label2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseUp);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -344,7 +329,6 @@
         private FontAwesome.Sharp.IconPictureBox ıconPictureBox1;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }
 }

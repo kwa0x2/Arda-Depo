@@ -17,7 +17,7 @@ namespace WindowsFormsApp4
         {
             InitializeComponent();
         }
-        MySqlConnection conn = new MySqlConnection("SERVER=87.248.157.101;PORT=3306;DATABASE=ismaildepo;UID=depoismailSQL;PASSWORD=depoismailSQL11;");
+        MySqlConnection conn = new MySqlConnection("SERVER=;PORT=3306;DATABASE=;UID=;PASSWORD=;");
         MySqlCommand cmd;
         MySqlDataAdapter adapter;
         DataTable dt;

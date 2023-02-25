@@ -113,5 +113,10 @@ namespace WindowsFormsApp4
             stoklistele.Show();
             this.Hide();
         }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

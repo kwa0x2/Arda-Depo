@@ -47,9 +47,12 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.ıconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ıconButton4 = new FontAwesome.Sharp.IconButton();
-            this.ıconButton5 = new FontAwesome.Sharp.IconButton();
+            this.ıconButton6 = new FontAwesome.Sharp.IconButton();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.ıconButton7 = new FontAwesome.Sharp.IconButton();
             this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -66,12 +69,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.ıconButton7 = new FontAwesome.Sharp.IconButton();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.ıconButton6 = new FontAwesome.Sharp.IconButton();
+            this.ıconButton5 = new FontAwesome.Sharp.IconButton();
+            this.ıconButton4 = new FontAwesome.Sharp.IconButton();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -336,53 +336,93 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(733, 451);
             this.panel8.TabIndex = 19;
+            this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             this.panel8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form4_MouseDown);
             this.panel8.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form4_MouseMove);
             this.panel8.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form4_MouseUp);
             // 
-            // dataGridView1
+            // ıconButton6
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 258);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(731, 190);
-            this.dataGridView1.TabIndex = 29;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            this.dataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEnter);
+            this.ıconButton6.FlatAppearance.BorderSize = 0;
+            this.ıconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ıconButton6.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ıconButton6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.ıconButton6.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.ıconButton6.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.ıconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.ıconButton6.IconSize = 30;
+            this.ıconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ıconButton6.Location = new System.Drawing.Point(550, 110);
+            this.ıconButton6.Name = "ıconButton6";
+            this.ıconButton6.Size = new System.Drawing.Size(168, 38);
+            this.ıconButton6.TabIndex = 61;
+            this.ıconButton6.Text = "Detaylı Yazdır";
+            this.ıconButton6.UseVisualStyleBackColor = true;
+            this.ıconButton6.Click += new System.EventHandler(this.ıconButton6_Click);
             // 
-            // ıconButton4
+            // label13
             // 
-            this.ıconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ıconButton4.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ıconButton4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.ıconButton4.IconChar = FontAwesome.Sharp.IconChar.ArrowRotateForward;
-            this.ıconButton4.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.ıconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.ıconButton4.IconSize = 30;
-            this.ıconButton4.Location = new System.Drawing.Point(693, 220);
-            this.ıconButton4.Name = "ıconButton4";
-            this.ıconButton4.Size = new System.Drawing.Size(31, 32);
-            this.ıconButton4.TabIndex = 30;
-            this.ıconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.ıconButton4.UseVisualStyleBackColor = true;
-            this.ıconButton4.Click += new System.EventHandler(this.ıconButton4_Click);
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.label13.Location = new System.Drawing.Point(631, 229);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(15, 17);
+            this.label13.TabIndex = 60;
+            this.label13.Text = "0";
             // 
-            // ıconButton5
+            // label12
             // 
-            this.ıconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ıconButton5.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ıconButton5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.ıconButton5.IconChar = FontAwesome.Sharp.IconChar.TrashAlt;
-            this.ıconButton5.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.ıconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.ıconButton5.IconSize = 30;
-            this.ıconButton5.Location = new System.Drawing.Point(656, 220);
-            this.ıconButton5.Name = "ıconButton5";
-            this.ıconButton5.Size = new System.Drawing.Size(31, 32);
-            this.ıconButton5.TabIndex = 31;
-            this.ıconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.ıconButton5.UseVisualStyleBackColor = true;
-            this.ıconButton5.Click += new System.EventHandler(this.ıconButton5_Click);
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.label12.Location = new System.Drawing.Point(547, 229);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(83, 17);
+            this.label12.TabIndex = 59;
+            this.label12.Text = "Toplam Kayıt:";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(244)))), ((int)(((byte)(224)))));
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox8.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.textBox8.Location = new System.Drawing.Point(137, 224);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(128, 25);
+            this.textBox8.TabIndex = 58;
+            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.label11.Location = new System.Drawing.Point(1, 227);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(130, 20);
+            this.label11.TabIndex = 57;
+            this.label11.Text = "Modele Göre Ara:";
+            // 
+            // ıconButton7
+            // 
+            this.ıconButton7.FlatAppearance.BorderSize = 0;
+            this.ıconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ıconButton7.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ıconButton7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.ıconButton7.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.ıconButton7.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.ıconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.ıconButton7.IconSize = 30;
+            this.ıconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ıconButton7.Location = new System.Drawing.Point(550, 66);
+            this.ıconButton7.Name = "ıconButton7";
+            this.ıconButton7.Size = new System.Drawing.Size(168, 38);
+            this.ıconButton7.TabIndex = 56;
+            this.ıconButton7.Text = "Güncelle";
+            this.ıconButton7.UseVisualStyleBackColor = true;
+            this.ıconButton7.Click += new System.EventHandler(this.ıconButton7_Click);
             // 
             // bunifuDatepicker1
             // 
@@ -567,88 +607,49 @@
             this.label10.TabIndex = 40;
             this.label10.Text = "Marka:";
             // 
-            // ıconButton7
+            // ıconButton5
             // 
-            this.ıconButton7.FlatAppearance.BorderSize = 0;
-            this.ıconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ıconButton7.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ıconButton7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.ıconButton7.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.ıconButton7.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.ıconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.ıconButton7.IconSize = 30;
-            this.ıconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ıconButton7.Location = new System.Drawing.Point(550, 66);
-            this.ıconButton7.Name = "ıconButton7";
-            this.ıconButton7.Size = new System.Drawing.Size(168, 38);
-            this.ıconButton7.TabIndex = 56;
-            this.ıconButton7.Text = "Güncelle";
-            this.ıconButton7.UseVisualStyleBackColor = true;
-            this.ıconButton7.Click += new System.EventHandler(this.ıconButton7_Click);
+            this.ıconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ıconButton5.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ıconButton5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.ıconButton5.IconChar = FontAwesome.Sharp.IconChar.TrashAlt;
+            this.ıconButton5.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.ıconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.ıconButton5.IconSize = 30;
+            this.ıconButton5.Location = new System.Drawing.Point(656, 220);
+            this.ıconButton5.Name = "ıconButton5";
+            this.ıconButton5.Size = new System.Drawing.Size(31, 32);
+            this.ıconButton5.TabIndex = 31;
+            this.ıconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ıconButton5.UseVisualStyleBackColor = true;
+            this.ıconButton5.Click += new System.EventHandler(this.ıconButton5_Click);
             // 
-            // textBox8
+            // ıconButton4
             // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(244)))), ((int)(((byte)(224)))));
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.textBox8.Location = new System.Drawing.Point(137, 224);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(128, 25);
-            this.textBox8.TabIndex = 58;
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
+            this.ıconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ıconButton4.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ıconButton4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.ıconButton4.IconChar = FontAwesome.Sharp.IconChar.ArrowRotateForward;
+            this.ıconButton4.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.ıconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.ıconButton4.IconSize = 30;
+            this.ıconButton4.Location = new System.Drawing.Point(693, 220);
+            this.ıconButton4.Name = "ıconButton4";
+            this.ıconButton4.Size = new System.Drawing.Size(31, 32);
+            this.ıconButton4.TabIndex = 30;
+            this.ıconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ıconButton4.UseVisualStyleBackColor = true;
+            this.ıconButton4.Click += new System.EventHandler(this.ıconButton4_Click);
             // 
-            // label11
+            // dataGridView1
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.label11.Location = new System.Drawing.Point(1, 227);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(130, 20);
-            this.label11.TabIndex = 57;
-            this.label11.Text = "Modele Göre Ara:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.label12.Location = new System.Drawing.Point(547, 229);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(83, 17);
-            this.label12.TabIndex = 59;
-            this.label12.Text = "Toplam Kayıt:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.label13.Location = new System.Drawing.Point(631, 229);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(15, 17);
-            this.label13.TabIndex = 60;
-            this.label13.Text = "0";
-            // 
-            // ıconButton6
-            // 
-            this.ıconButton6.FlatAppearance.BorderSize = 0;
-            this.ıconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ıconButton6.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ıconButton6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.ıconButton6.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.ıconButton6.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.ıconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.ıconButton6.IconSize = 30;
-            this.ıconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ıconButton6.Location = new System.Drawing.Point(550, 110);
-            this.ıconButton6.Name = "ıconButton6";
-            this.ıconButton6.Size = new System.Drawing.Size(168, 38);
-            this.ıconButton6.TabIndex = 61;
-            this.ıconButton6.Text = "Detaylı Yazdır";
-            this.ıconButton6.UseVisualStyleBackColor = true;
-            this.ıconButton6.Click += new System.EventHandler(this.ıconButton6_Click);
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 258);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(731, 190);
+            this.dataGridView1.TabIndex = 29;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEnter);
             // 
             // Form4
             // 

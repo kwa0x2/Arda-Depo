@@ -152,7 +152,7 @@ namespace WindowsFormsApp4
         string hatames;
         private void Form1_Load(object sender, EventArgs e)
         {
-            connString = "SERVER=87.248.157.101;PORT=3306;DATABASE=ismaildepo;UID=depoismailSQL;PASSWORD=depoismailSQL11";
+            connString = "SERVER=;PORT=3306;DATABASE=;UID=;PASSWORD=";
             try
             {
                 conn = new MySqlConnection(connString);
